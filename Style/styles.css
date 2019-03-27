@@ -1,12 +1,12 @@
 *{
-	margin: none;
-	padding: none;
+	margin: 0px;
+	padding: 0px;
 }
 
 body{
 	width: 100%;
-	padding: none;
-	margin: none;
+	padding: 0px;
+	margin: 0px;
 	height: auto;
 }
 
@@ -15,48 +15,27 @@ body{
 	top: 0;
 	left: 0;
 	width: 100%;
-	margin: none;
-	padding: none;
-	border: none;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
 	background-color: white;
+	display: flex;
+	flex-direction: row;
 }
-#nav-bar ul{
-	padding: none;
-	margin: none;
+.nav ul{
+	padding: 0px;
+	margin: 0px;
 	list-style: none;
 	width: 100%;
 }
-#nav-bar{
-	display: flex;
-	flex-direction: row;
-	width: 100%;
-	margin: none;
-	padding: none;
-}
-#first {
-	margin: none;
-	border: none;
+.nav ul {
+	margin: 0px;
+	border: 0px;
 	padding: 0px  5px 0px 8px;
 	display: flex;
 	flex-direction: row; 
 	justify-content: flex-start;
 	align-items: center;
-}
-#second{
-	display: flex;
-	flex-direction: row; 
-	align-items: center;
-}
-#third{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-	align-items: center;
-}
-#third li{
-	align-content: space-around;
-	padding-left: 0px;
-	margin: 0px;
 }
 #lines{
 	width: 50px;
@@ -68,7 +47,7 @@ body{
 	height: 50px;
 } 
 #camera{
-	padding: 0px 10px ;
+	padding: 0px 5px 0px 15px ;
 	height: 45px;
 	width: 45px;
 
@@ -114,33 +93,32 @@ p {
 	font-family: Roboto, Arial, sans-serif;
 }
 
-#core{
+.videos{
 	width: 100%;
 	padding-top: 100px;
 	display: flex;
 }
-#main-video{
+.main-video{
 	width: 60%;
 	padding: 20px 20px;
 	justify-content: flex-start;
 }
-#likes{
+.likes{
 	display: flex;
 	vertical-align: center;
 	justify-content: space-between;
 }
-#likes p{
+.likes p{
 	vertical-align: center;
 	padding-top: 7px;
 }
-#suggestions{
+.suggestions{
 	width: 30%;
 	justify-content: flex-end;
 }
-#suggestions table img{
+.suggestions table img{
 	height: 110px;
 	width: 190px;
-
 }
 table {
 	padding: 18px 0px 0px 20px ;
@@ -151,11 +129,11 @@ table {
 table h3{
 	font-family: Roboto, Arial, sans-serif;
 	font-size: 14px;
-	margin: none;
+	margin: 0px;
 }
 table h4 {
 	font-family: Roboto, Arial, sans-serif;
 	font-size: 10px;
-	margin: none;
+	margin: 0px;
 	font-weight: normal;
 }
