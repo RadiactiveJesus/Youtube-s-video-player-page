@@ -23,18 +23,20 @@ body{
 	flex-direction: row;
 }
 .nav ul{
-	padding: 0px;
+	padding: 0px  5px 0px 8px;
+	border: 0px;
 	margin: 0px;
 	list-style: none;
 	width: 100%;
-}
-.nav ul {
-	margin: 0px;
-	border: 0px;
-	padding: 0px  5px 0px 8px;
 	display: flex;
 	flex-direction: row; 
 	justify-content: flex-start;
+	align-items: center;
+}
+
+#right-icons{
+	padding-left: 200px;
+	justify-content: : flex-end;
 	align-items: center;
 }
 #lines{
@@ -103,10 +105,15 @@ p {
 	padding: 20px 20px;
 	justify-content: flex-start;
 }
+.main-video p{
+	padding-top: 20px;
+}
+
 .likes{
 	display: flex;
 	vertical-align: center;
 	justify-content: space-between;
+	padding-top: 20px;
 }
 .likes p{
 	vertical-align: center;
@@ -130,10 +137,13 @@ table h3{
 	font-family: Roboto, Arial, sans-serif;
 	font-size: 14px;
 	margin: 0px;
+	padding-left: 20px;
 }
 table h4 {
 	font-family: Roboto, Arial, sans-serif;
 	font-size: 10px;
 	margin: 0px;
+	padding-left: 20px;
+	padding-top: 8px;
 	font-weight: normal;
 }
